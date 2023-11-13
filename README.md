@@ -1,6 +1,8 @@
 # Fastify demo with swagger
 
 This is a mix of tutorials I followed that I joined together into a single project. Basically I joined together the key concepts learned from codelive and traversy media tutorials.
+https://www.youtube.com/live/r7cjW_IlHHk?si=-VDo6pg7lmcxW0tj
+uses SalesForce API for API management: https://developer.salesforce.com/
 
 codelive: updated info about swagger integration
 traversy: good begginer friendly tutorial on how to setup routes and controllers with schema validations.

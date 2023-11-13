@@ -20,6 +20,12 @@ export default async function (fastify, opts) {
         version: '1.0',
       },
     },
+    refResolver: {
+      // so our $refs are properly named, instead of def-0, def-1
+      buildLocalReference: (json, baseUri, fragment, i) => {
+        return json.$id || `def-i{i}`;
+      },
+    },
   });
 
   fastify.register(SwaggerUI, {
